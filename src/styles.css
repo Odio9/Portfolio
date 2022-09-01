@@ -7,7 +7,7 @@ section {
 }
 
 .hero {
-    background-color: rgb(69, 69, 86);
+    background-color: rgb(100, 100, 112);
     height:100vh;
     color: white;
     font-size: 40px;
@@ -48,6 +48,11 @@ p {
     margin: 0;
     font-size: 30px;
     font-weight: 300; 
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .hero-area {
@@ -124,11 +129,18 @@ p {
 .project-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px rgb(134, 178, 209);  
+    box-shadow: 5px 5px 20px rgb(63, 68, 71); 
+    margin: 5px; 
 }
 
 
 .project-container{
     display: flex;
     justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 5px;
+    width: 260px;
+    border-radius: 130;
 }
